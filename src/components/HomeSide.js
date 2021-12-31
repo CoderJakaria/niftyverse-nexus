@@ -7,7 +7,7 @@ const HomeSide = () => {
 
   return (
     <>
-      <div className="flex justify-between mt-4">
+      <div className="flex justify-between mt-[95px]">
         <button className="rounded-[40px] border border-gray-300 px-5 py-1">
           <img
             src="/images/icons/thumbnails.png"

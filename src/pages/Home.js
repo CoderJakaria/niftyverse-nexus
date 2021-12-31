@@ -7,7 +7,7 @@ const Home = () => {
 
   return (
     <section className="relative">
-      <div className="absolute lg:hidden top-5 left-5 cursor-pointer bg-black p-1 z-50">
+      <div className="absolute lg:hidden top-5 left-5 cursor-pointer bg-black p-1 z-[200]">
         <img
           src="/images/icons/square.png"
           alt=""
@@ -17,11 +17,11 @@ const Home = () => {
           }}
         />
       </div>
-      <div className="max-w-5xl mx-auto lg:flex pt-2 pb-5">
+      <div className="max-w-5xl mx-auto lg:flex ">
         <div
           className={`flex-[0.3] lg:block ${
             isSidebar ? "block px-3" : "hidden"
-          } lg:static absolute left-0 top-0 bg-white`}
+          } lg:static fixed h-full pr-5 overflow-auto h-screen left-0 top-0 bg-white z-[100]`}
         >
           <HomeSide />
         </div>

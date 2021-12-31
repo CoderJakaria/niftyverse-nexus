@@ -23,4 +23,5 @@
 .home_gallery img:hover,
 .profile_gallery img:hover {
   opacity: 0.8;
+  cursor: pointer;
 }

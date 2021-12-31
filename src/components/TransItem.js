@@ -13,10 +13,10 @@ const TransItem = ({ img1, name, timestamp, price, img2 }) => {
           <h4>{name}</h4>
         </div>
         <div>
-          <p className="text-base text-gray-400">{timestamp}</p>
+          <p className="sm:text-base text-sm text-gray-400">{timestamp}</p>
         </div>
         <div className="flex items-center space-x-3">
-          <h4>{price} NFT</h4>
+          <h4 className="sm:text-lg text-sm">{price} NFT</h4>
           <img
             src={img2}
             alt=""
@@ -25,7 +25,7 @@ const TransItem = ({ img1, name, timestamp, price, img2 }) => {
         </div>
       </div>
 
-      <p className="text-base text-gray-400">Bought “Stratosense”</p>
+      <p className="sm:text-base text-sm text-gray-400">Bought “Stratosense”</p>
     </div>
   );
 };
