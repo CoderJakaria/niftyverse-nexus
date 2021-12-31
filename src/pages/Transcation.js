@@ -13,7 +13,7 @@ const Transcation = () => {
   });
   return (
     <section className="mt-[90px]">
-      <div className="max-w-5xl lg:mx-auto sm:mx-5 mx-0  sm:py-[20px]  py-[10px] sm:px-[30px] px-[10px] m:rounded-[46px] border border-gray-300 my-[25px] font-poppins">
+      <div className="max-w-5xl lg:mx-auto sm:mx-5 mx-0  sm:py-[20px]  py-[10px] sm:px-[30px] px-[10px] md:rounded-[46px] border border-gray-300 my-[25px] font-poppins">
         <div className="md:flex md:space-x-5">
           <div className="flex-[0.5]">
             <div className="flex justify-between items-center mb-3 relative">
