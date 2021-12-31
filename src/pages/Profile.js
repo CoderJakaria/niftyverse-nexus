@@ -8,7 +8,7 @@ const Profile = () => {
         <div className="md:flex py-5 md:space-x-5 space-x-0">
           <div className="flex-[0.4] flex flex-col items-center md:mt-auto mt-[70px]">
             <img
-              src="/images/premium/profile.png"
+              src="https://images.unsplash.com/photo-1638913971789-667874197280?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxzZWFyY2h8MTV8fG5mdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
               alt=""
               className="h-[180px] w-[180px] rounded-full"
             />

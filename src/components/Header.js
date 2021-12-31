@@ -19,7 +19,7 @@ const Header = () => {
         </Link>
 
         <div className="flex items-center space-x-5 ">
-          <div className="flex items-center justify-between bg-white rounded-[40px] border border-gray-300 px-3 py-1 sm:block hidden">
+          <div className="flex items-center justify-between bg-white rounded-[40px] border border-gray-300 px-3 py-1 sm:flex hidden">
             <input
               type="text"
               className="border-none outline-none m-0 sm:w-auto w-[140px]"

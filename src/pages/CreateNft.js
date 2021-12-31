@@ -11,7 +11,7 @@ const CreateNft = () => {
         <div className="md:flex sm:space-x-5 items-center">
           <div className="flex-[0.5]">
             <img
-              src="/images/prod/child.png"
+              src="https://images.unsplash.com/photo-1617791116959-f09c8987a947?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fGJsb2NrY2hhaW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
               alt=""
               className="rounded-md md:mb-0 mb-5"
             />

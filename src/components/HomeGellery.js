@@ -6,92 +6,114 @@ const HomeGellery = () => {
   return (
     <div className="home_gallery  grid grid-cols-6 gap-1 grid-flow-row-dense h-[84vh] mt-[95px] overflow-auto">
       <ProdItem
-        img="/images/prod/1.png"
+        img="https://images.unsplash.com/photo-1530333821974-f9fcfd6718c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmxvY2tjaGFpbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
         alt=""
         // className="w-full h-[150px] object-cover"
       />
       <ProdItem
-        img="/images/prod/2.png"
+        img="https://images.unsplash.com/photo-1456428746267-a1756408f782?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YmxvY2tjaGFpbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        alt=""
+        // comp="w-full h-full object-cover col-start-2 col-end-4 row-start-1 row-end-3"
+        // className="w-full h-[150px] object-cover"
+      />
+      <ProdItem
+        img="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJsb2NrY2hhaW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+        alt=""
+        // className="w-full h-[150px] object-cover"
+      />
+      <ProdItem
+        img="https://images.unsplash.com/photo-1635236066449-5b45769be233?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGJsb2NrY2hhaW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+        alt=""
+        // className="w-full h-[150px] object-cover"
+      />
+
+      <ProdItem
+        img="https://images.unsplash.com/photo-1530333821974-f9fcfd6718c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmxvY2tjaGFpbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        alt=""
+        // className="w-full h-[150px] object-cover"
+      />
+      <ProdItem
+        img="https://images.unsplash.com/photo-1456428746267-a1756408f782?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YmxvY2tjaGFpbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
         alt=""
         comp="w-full h-full object-cover col-start-2 col-end-4 row-start-1 row-end-3"
+        // className="w-full h-[150px] object-cover"
       />
       <ProdItem
-        img="/images/prod/3.png"
+        img="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJsb2NrY2hhaW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
         alt=""
         // className="w-full h-[150px] object-cover"
       />
       <ProdItem
-        img="/images/prod/4.png"
+        img="https://images.unsplash.com/photo-1635236066449-5b45769be233?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGJsb2NrY2hhaW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
         alt=""
         // className="w-full h-[150px] object-cover"
       />
       <ProdItem
-        img="/images/prod/5.png"
+        img="https://images.unsplash.com/photo-1530333821974-f9fcfd6718c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmxvY2tjaGFpbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
         alt=""
         // className="w-full h-[150px] object-cover"
       />
       <ProdItem
-        img="/images/prod/6.png"
+        img="https://images.unsplash.com/photo-1456428746267-a1756408f782?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YmxvY2tjaGFpbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        alt=""
+        comp="w-full h-full object-cover col-start-2 col-end-4 row-start-1 row-end-3"
+        // className="w-full h-[150px] object-cover"
+      />
+      <ProdItem
+        img="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJsb2NrY2hhaW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
         alt=""
         // className="w-full h-[150px] object-cover"
       />
       <ProdItem
-        img="/images/prod/7.jpg"
+        img="https://images.unsplash.com/photo-1635236066449-5b45769be233?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGJsb2NrY2hhaW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
         alt=""
         // className="w-full h-[150px] object-cover"
       />
       <ProdItem
-        img="/images/prod/8.png"
+        img="https://images.unsplash.com/photo-1530333821974-f9fcfd6718c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmxvY2tjaGFpbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
         alt=""
         // className="w-full h-[150px] object-cover"
       />
       <ProdItem
-        img="/images/prod/9.png"
+        img="https://images.unsplash.com/photo-1456428746267-a1756408f782?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YmxvY2tjaGFpbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        alt=""
+        comp="w-full h-full object-cover col-start-2 col-end-4 row-start-1 row-end-3"
+        // className="w-full h-[150px] object-cover"
+      />
+      <ProdItem
+        img="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJsb2NrY2hhaW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
         alt=""
         // className="w-full h-[150px] object-cover"
       />
       <ProdItem
-        img="/images/prod/10.png"
+        img="https://images.unsplash.com/photo-1635236066449-5b45769be233?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGJsb2NrY2hhaW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+        alt=""
+        comp="w-full h-full object-cover col-start-4 col-end-6 row-start-3 row-end-5"
+        // className="w-full h-[150px] object-cover"
+      />
+      <ProdItem
+        img="https://images.unsplash.com/photo-1530333821974-f9fcfd6718c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmxvY2tjaGFpbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
         alt=""
         // className="w-full h-[150px] object-cover"
       />
       <ProdItem
-        img="/images/prod/11.png"
+        img="https://images.unsplash.com/photo-1456428746267-a1756408f782?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YmxvY2tjaGFpbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        alt=""
+        comp="w-full h-full object-cover col-start-2 col-end-4 row-start-1 row-end-3"
+        // className="w-full h-[150px] object-cover"
+      />
+      <ProdItem
+        img="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJsb2NrY2hhaW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
         alt=""
         // className="w-full h-[150px] object-cover"
       />
       <ProdItem
-        img="/images/prod/12.png"
+        img="https://images.unsplash.com/photo-1635236066449-5b45769be233?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGJsb2NrY2hhaW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
         alt=""
         // className="w-full h-[150px] object-cover"
       />
       <ProdItem
-        img="/images/prod/1.png"
-        alt=""
-        // className="w-full h-[150px] object-cover"
-      />
-      <ProdItem
-        img="/images/prod/2.png"
-        alt=""
-        comp="w-full h-full object-cover col-start-5 col-end-7 row-start-3 row-end-5"
-      />
-      <ProdItem
-        img="/images/prod/3.png"
-        alt=""
-        // className="w-full h-[150px] object-cover"
-      />
-      <ProdItem
-        img="/images/prod/4.png"
-        alt=""
-        // className="w-full h-[150px] object-cover"
-      />
-      <ProdItem
-        img="/images/prod/5.png"
-        alt=""
-        // className="w-full h-[150px] object-cover"
-      />
-      <ProdItem
-        img="/images/prod/6.png"
+        img="https://images.unsplash.com/photo-1635236066449-5b45769be233?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGJsb2NrY2hhaW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
         alt=""
         // className="w-full h-[150px] object-cover"
       />
